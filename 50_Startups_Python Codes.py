@@ -29,7 +29,7 @@ cor_stu = stu.corr()
 ############################################# Visualizing and normalizing the data to remove outliers  ###########
 #sstu = stu.drop('St',axis = 1)
 n_stu = preprocessing.normalize(stu)
-plt.hist(n_stu[4])
+plt.hist(n_stu)
 import seaborn as sns
 sns.pairplot(stu)
 
