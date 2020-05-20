@@ -14,7 +14,7 @@ from ml_metrics import rmse
 ############################################# Importing the dataset ##############################################
 #toy = pd.read_csv("E:\\Neeraj\\Exam and Careers\\DataScience\\Data Sets\\ToyotaCorolla.csv")
 #Stu = pd.read_csv("E:\\Neeraj\\Exam and Careers\\DataScience\\Data Sets\\Toyotacorolla.csv")
-Stu = pd.read_csv("E:\\Neeraj\\Exam and Careers\\DataScience\\Data Sets\\50_Startups.csv",encoding = "ISO-8859-1")
+Stu = pd.read_csv("E:\\Neeraj\\Exam and Careers\\DataScience\\Data Sets\\50_Startups.csv,encoding = "ISO-8859-1")
 stu = pd.read_csv("E:\\Neeraj\\Exam and Careers\\DataScience\\Data Sets\\50_Startups.csv",encoding = "ISO-8859-1")
 stu
 stu.describe()
